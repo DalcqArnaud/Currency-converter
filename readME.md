@@ -1,5 +1,5 @@
 # The dream 🍹
-About the project (coming soon)
+The project is about create a money currencies converter.
 
 ## The Mission
 
