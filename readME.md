@@ -1,6 +1,8 @@
 # The dream 🍹
 The project is about creating a money currencies converter.
 
+![The result](./images/demo.PNG)
+
 ## The Mission
 
 Dreaming about going on vacation after the course? Going somewhere far, far away?
