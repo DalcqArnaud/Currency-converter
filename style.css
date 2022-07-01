@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 50% 1fr;
+    row-gap: 50px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #D69ABA;
+    color: #4a1e35;
+}
+
+#titleContent{
+    grid-column-start: 2;
+    margin-top: 40px;
+    font-size: 300%;
+}
+
+#formContent{
+    grid-column-start: 2;
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    border: 5px solid aliceblue;
+    border-radius: 20px;
+    background-color: #E5BFD3;
+}
+
+#selects{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+
+#secondaryLabels1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    align-self: center;
+    justify-self: left;
+}
+
+#secondaryLabels2{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    align-self: center;
+    justify-self: left;
+}
+
+#currencyFrom{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    border-style: solid;
+    border-color: #4a1e35;
+    height: 30px;
+    font-size: 100%;
+    color: #4a1e35;
+}
+
+#currencyTo{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    border-style: solid;
+    border-color: #4a1e35;
+    height: 30px;
+    font-size: 100%;
+    color: #4a1e35;
+}
+
+#resultDiv{
+    text-align: center;
+    grid-column-start: 2;
+    margin-top: 20px;
+}
+
+#result{
+    font-size: large;
+    font-weight: bold;
+}
+
+#time{
+    margin-top: 10px;
+}
+
+#convertBtn{
+    margin-top: 20px;
+    width: 33.33333%;
+    height: 30px;
+    font-size: 120%;
+    border-radius: 20px;
+    background-color: #4a1e35;
+    color: aliceblue;
+    border-color: aliceblue;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#mainLabels{
+    font-size: large;
+    font-weight: bold;
+}
+
+#moneyAmount{
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    border-style: solid;
+    border-color: #4a1e35;
+    border-radius: 5px;
+    color: #4a1e35;
+    height: 30px;
+    font-size: 120%;
+}
+
+#amountDiv{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        grid-template-columns: 1fr 90% 1fr;
+    }
+
+    #titleContent{
+        margin-top: 40px;
+    }
+}
