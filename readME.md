@@ -1,4 +1,4 @@
-# The dream 🍹
+# Currency-converter 💰
 The project is about creating a money currencies converter.
 
 ![The result](./images/demo.PNG)
